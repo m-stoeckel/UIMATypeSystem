@@ -10,12 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- * XML source: /home/abrami/Projects/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class OCRFormat extends Annotation {
     /**
      * @generated
@@ -35,17 +33,15 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected OCRFormat() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -54,18 +50,18 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public OCRFormat(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public OCRFormat(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -74,19 +70,19 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public OCRFormat(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -100,11 +96,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public String getLang() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_lang == null)
-            jcasType.jcas.throwFeatMissing("lang", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_lang);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_lang == null)
+      jcasType.jcas.throwFeatMissing("lang", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_lang);}
+    
     /**
      * setter for lang - sets
      *
@@ -112,12 +107,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setLang(String v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_lang == null)
-            jcasType.jcas.throwFeatMissing("lang", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_lang, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_lang == null)
+      jcasType.jcas.throwFeatMissing("lang", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_lang, v);}    
+   
+    
     //*--------------*
     //* Feature: ff
 
@@ -128,11 +122,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public String getFf() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_ff == null)
-            jcasType.jcas.throwFeatMissing("ff", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_ff);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_ff == null)
+      jcasType.jcas.throwFeatMissing("ff", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_ff);}
+    
     /**
      * setter for ff - sets
      *
@@ -140,12 +133,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setFf(String v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_ff == null)
-            jcasType.jcas.throwFeatMissing("ff", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_ff, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_ff == null)
+      jcasType.jcas.throwFeatMissing("ff", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_ff, v);}    
+   
+    
     //*--------------*
     //* Feature: fs
 
@@ -156,11 +148,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public float getFs() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_fs == null)
-            jcasType.jcas.throwFeatMissing("fs", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getFloatValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_fs);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_fs == null)
+      jcasType.jcas.throwFeatMissing("fs", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getFloatValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_fs);}
+    
     /**
      * setter for fs - sets
      *
@@ -168,12 +159,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setFs(float v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_fs == null)
-            jcasType.jcas.throwFeatMissing("fs", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setFloatValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_fs, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_fs == null)
+      jcasType.jcas.throwFeatMissing("fs", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setFloatValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_fs, v);}    
+   
+    
     //*--------------*
     //* Feature: bold
 
@@ -184,11 +174,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getBold() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_bold == null)
-            jcasType.jcas.throwFeatMissing("bold", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_bold);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_bold == null)
+      jcasType.jcas.throwFeatMissing("bold", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_bold);}
+    
     /**
      * setter for bold - sets
      *
@@ -196,12 +185,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setBold(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_bold == null)
-            jcasType.jcas.throwFeatMissing("bold", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_bold, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_bold == null)
+      jcasType.jcas.throwFeatMissing("bold", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_bold, v);}    
+   
+    
     //*--------------*
     //* Feature: italic
 
@@ -212,11 +200,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getItalic() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_italic == null)
-            jcasType.jcas.throwFeatMissing("italic", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_italic);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_italic == null)
+      jcasType.jcas.throwFeatMissing("italic", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_italic);}
+    
     /**
      * setter for italic - sets
      *
@@ -224,12 +211,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setItalic(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_italic == null)
-            jcasType.jcas.throwFeatMissing("italic", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_italic, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_italic == null)
+      jcasType.jcas.throwFeatMissing("italic", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_italic, v);}    
+   
+    
     //*--------------*
     //* Feature: subscript
 
@@ -240,11 +226,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getSubscript() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_subscript == null)
-            jcasType.jcas.throwFeatMissing("subscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_subscript);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_subscript == null)
+      jcasType.jcas.throwFeatMissing("subscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_subscript);}
+    
     /**
      * setter for subscript - sets
      *
@@ -252,12 +237,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setSubscript(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_subscript == null)
-            jcasType.jcas.throwFeatMissing("subscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_subscript, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_subscript == null)
+      jcasType.jcas.throwFeatMissing("subscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_subscript, v);}    
+   
+    
     //*--------------*
     //* Feature: superscript
 
@@ -268,11 +252,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getSuperscript() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_superscript == null)
-            jcasType.jcas.throwFeatMissing("superscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_superscript);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_superscript == null)
+      jcasType.jcas.throwFeatMissing("superscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_superscript);}
+    
     /**
      * setter for superscript - sets
      *
@@ -280,12 +263,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setSuperscript(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_superscript == null)
-            jcasType.jcas.throwFeatMissing("superscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_superscript, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_superscript == null)
+      jcasType.jcas.throwFeatMissing("superscript", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_superscript, v);}    
+   
+    
     //*--------------*
     //* Feature: smallcaps
 
@@ -296,11 +278,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getSmallcaps() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_smallcaps == null)
-            jcasType.jcas.throwFeatMissing("smallcaps", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_smallcaps);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_smallcaps == null)
+      jcasType.jcas.throwFeatMissing("smallcaps", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_smallcaps);}
+    
     /**
      * setter for smallcaps - sets
      *
@@ -308,12 +289,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setSmallcaps(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_smallcaps == null)
-            jcasType.jcas.throwFeatMissing("smallcaps", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_smallcaps, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_smallcaps == null)
+      jcasType.jcas.throwFeatMissing("smallcaps", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_smallcaps, v);}    
+   
+    
     //*--------------*
     //* Feature: underline
 
@@ -324,11 +304,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getUnderline() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_underline == null)
-            jcasType.jcas.throwFeatMissing("underline", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_underline);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_underline == null)
+      jcasType.jcas.throwFeatMissing("underline", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_underline);}
+    
     /**
      * setter for underline - sets
      *
@@ -336,12 +315,11 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setUnderline(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_underline == null)
-            jcasType.jcas.throwFeatMissing("underline", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_underline, v);
-    }
-
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_underline == null)
+      jcasType.jcas.throwFeatMissing("underline", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_underline, v);}    
+   
+    
     //*--------------*
     //* Feature: strikeout
 
@@ -352,11 +330,10 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public boolean getStrikeout() {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_strikeout == null)
-            jcasType.jcas.throwFeatMissing("strikeout", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_strikeout);
-    }
-
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_strikeout == null)
+      jcasType.jcas.throwFeatMissing("strikeout", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_strikeout);}
+    
     /**
      * setter for strikeout - sets
      *
@@ -364,10 +341,9 @@ public class OCRFormat extends Annotation {
      * @generated
      */
     public void setStrikeout(boolean v) {
-        if (OCRFormat_Type.featOkTst && ((OCRFormat_Type) jcasType).casFeat_strikeout == null)
-            jcasType.jcas.throwFeatMissing("strikeout", "org.texttechnologylab.annotation.ocr.OCRFormat");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type) jcasType).casFeatCode_strikeout, v);
-    }
-}
+    if (OCRFormat_Type.featOkTst && ((OCRFormat_Type)jcasType).casFeat_strikeout == null)
+      jcasType.jcas.throwFeatMissing("strikeout", "org.texttechnologylab.annotation.ocr.OCRFormat");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRFormat_Type)jcasType).casFeatCode_strikeout, v);}    
+  }
 
     

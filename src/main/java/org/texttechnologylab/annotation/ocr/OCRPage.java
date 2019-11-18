@@ -10,12 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- * XML source: /home/abrami/Projects/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class OCRPage extends Annotation {
     /**
      * @generated
@@ -35,17 +33,15 @@ public class OCRPage extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected OCRPage() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -54,18 +50,18 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public OCRPage(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public OCRPage(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -74,19 +70,19 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public OCRPage(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -100,11 +96,10 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public int getWidth() {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_width == null)
-            jcasType.jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_width);
-    }
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_width == null)
+      jcasType.jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_width);}
+    
     /**
      * setter for width - sets
      *
@@ -112,12 +107,11 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public void setWidth(int v) {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_width == null)
-            jcasType.jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_width, v);
-    }
-
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_width == null)
+      jcasType.jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_width, v);}    
+   
+    
     //*--------------*
     //* Feature: height
 
@@ -128,11 +122,10 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public int getHeight() {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_height == null)
-            jcasType.jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_height);
-    }
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_height == null)
+      jcasType.jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_height);}
+    
     /**
      * setter for height - sets
      *
@@ -140,12 +133,11 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public void setHeight(int v) {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_height == null)
-            jcasType.jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_height, v);
-    }
-
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_height == null)
+      jcasType.jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_height, v);}    
+   
+    
     //*--------------*
     //* Feature: resolution
 
@@ -156,11 +148,10 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public int getResolution() {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_resolution == null)
-            jcasType.jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_resolution);
-    }
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_resolution == null)
+      jcasType.jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_resolution);}
+    
     /**
      * setter for resolution - sets
      *
@@ -168,12 +159,11 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public void setResolution(int v) {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_resolution == null)
-            jcasType.jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_resolution, v);
-    }
-
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_resolution == null)
+      jcasType.jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_resolution, v);}    
+   
+    
     //*--------------*
     //* Feature: pageId
 
@@ -184,11 +174,10 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public String getPageId() {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_pageId == null)
-            jcasType.jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRPage_Type) jcasType).casFeatCode_pageId);
-    }
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_pageId == null)
+      jcasType.jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRPage_Type)jcasType).casFeatCode_pageId);}
+    
     /**
      * setter for pageId - sets
      *
@@ -196,12 +185,11 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public void setPageId(String v) {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_pageId == null)
-            jcasType.jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRPage_Type) jcasType).casFeatCode_pageId, v);
-    }
-
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_pageId == null)
+      jcasType.jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRPage_Type)jcasType).casFeatCode_pageId, v);}    
+   
+    
     //*--------------*
     //* Feature: pageNumber
 
@@ -212,11 +200,10 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public int getPageNumber() {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_pageNumber == null)
-            jcasType.jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_pageNumber);
-    }
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_pageNumber == null)
+      jcasType.jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_pageNumber);}
+    
     /**
      * setter for pageNumber - sets
      *
@@ -224,12 +211,11 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public void setPageNumber(int v) {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_pageNumber == null)
-            jcasType.jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type) jcasType).casFeatCode_pageNumber, v);
-    }
-
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_pageNumber == null)
+      jcasType.jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRPage_Type)jcasType).casFeatCode_pageNumber, v);}    
+   
+    
     //*--------------*
     //* Feature: uri
 
@@ -240,11 +226,10 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public String getUri() {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_uri == null)
-            jcasType.jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRPage_Type) jcasType).casFeatCode_uri);
-    }
-
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_uri == null)
+      jcasType.jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRPage_Type)jcasType).casFeatCode_uri);}
+    
     /**
      * setter for uri - sets
      *
@@ -252,10 +237,9 @@ public class OCRPage extends Annotation {
      * @generated
      */
     public void setUri(String v) {
-        if (OCRPage_Type.featOkTst && ((OCRPage_Type) jcasType).casFeat_uri == null)
-            jcasType.jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRPage_Type) jcasType).casFeatCode_uri, v);
-    }
-}
+    if (OCRPage_Type.featOkTst && ((OCRPage_Type)jcasType).casFeat_uri == null)
+      jcasType.jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRPage_Type)jcasType).casFeatCode_uri, v);}    
+  }
 
     

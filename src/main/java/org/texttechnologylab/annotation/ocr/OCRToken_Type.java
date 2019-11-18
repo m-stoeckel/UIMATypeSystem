@@ -10,11 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token_Type;
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * @generated */
 public class OCRToken_Type extends Token_Type {
     /**
      * @generated
@@ -44,10 +42,9 @@ public class OCRToken_Type extends Token_Type {
      */
     public int getSubTokenList(int addr) {
         if (featOkTst && casFeat_subTokenList == null)
-            jcas.throwFeatMissing("subTokenList", "org.texttechnologylab.annotation.ocr.OCRToken");
-        return ll_cas.ll_getRefValue(addr, casFeatCode_subTokenList);
-    }
-
+      jcas.throwFeatMissing("subTokenList", "org.texttechnologylab.annotation.ocr.OCRToken");
+    return ll_cas.ll_getRefValue(addr, casFeatCode_subTokenList);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -55,11 +52,11 @@ public class OCRToken_Type extends Token_Type {
      */
     public void setSubTokenList(int addr, int v) {
         if (featOkTst && casFeat_subTokenList == null)
-            jcas.throwFeatMissing("subTokenList", "org.texttechnologylab.annotation.ocr.OCRToken");
-        ll_cas.ll_setRefValue(addr, casFeatCode_subTokenList, v);
-    }
-
-
+      jcas.throwFeatMissing("subTokenList", "org.texttechnologylab.annotation.ocr.OCRToken");
+    ll_cas.ll_setRefValue(addr, casFeatCode_subTokenList, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -76,10 +73,9 @@ public class OCRToken_Type extends Token_Type {
      */
     public boolean getIsWordFromDictionary(int addr) {
         if (featOkTst && casFeat_isWordFromDictionary == null)
-            jcas.throwFeatMissing("isWordFromDictionary", "org.texttechnologylab.annotation.ocr.OCRToken");
-        return ll_cas.ll_getBooleanValue(addr, casFeatCode_isWordFromDictionary);
-    }
-
+      jcas.throwFeatMissing("isWordFromDictionary", "org.texttechnologylab.annotation.ocr.OCRToken");
+    return ll_cas.ll_getBooleanValue(addr, casFeatCode_isWordFromDictionary);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -87,11 +83,11 @@ public class OCRToken_Type extends Token_Type {
      */
     public void setIsWordFromDictionary(int addr, boolean v) {
         if (featOkTst && casFeat_isWordFromDictionary == null)
-            jcas.throwFeatMissing("isWordFromDictionary", "org.texttechnologylab.annotation.ocr.OCRToken");
-        ll_cas.ll_setBooleanValue(addr, casFeatCode_isWordFromDictionary, v);
-    }
-
-
+      jcas.throwFeatMissing("isWordFromDictionary", "org.texttechnologylab.annotation.ocr.OCRToken");
+    ll_cas.ll_setBooleanValue(addr, casFeatCode_isWordFromDictionary, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -108,10 +104,9 @@ public class OCRToken_Type extends Token_Type {
      */
     public boolean getIsWordNormal(int addr) {
         if (featOkTst && casFeat_isWordNormal == null)
-            jcas.throwFeatMissing("isWordNormal", "org.texttechnologylab.annotation.ocr.OCRToken");
-        return ll_cas.ll_getBooleanValue(addr, casFeatCode_isWordNormal);
-    }
-
+      jcas.throwFeatMissing("isWordNormal", "org.texttechnologylab.annotation.ocr.OCRToken");
+    return ll_cas.ll_getBooleanValue(addr, casFeatCode_isWordNormal);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -119,11 +114,11 @@ public class OCRToken_Type extends Token_Type {
      */
     public void setIsWordNormal(int addr, boolean v) {
         if (featOkTst && casFeat_isWordNormal == null)
-            jcas.throwFeatMissing("isWordNormal", "org.texttechnologylab.annotation.ocr.OCRToken");
-        ll_cas.ll_setBooleanValue(addr, casFeatCode_isWordNormal, v);
-    }
-
-
+      jcas.throwFeatMissing("isWordNormal", "org.texttechnologylab.annotation.ocr.OCRToken");
+    ll_cas.ll_setBooleanValue(addr, casFeatCode_isWordNormal, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -140,10 +135,9 @@ public class OCRToken_Type extends Token_Type {
      */
     public boolean getIsWordNumeric(int addr) {
         if (featOkTst && casFeat_isWordNumeric == null)
-            jcas.throwFeatMissing("isWordNumeric", "org.texttechnologylab.annotation.ocr.OCRToken");
-        return ll_cas.ll_getBooleanValue(addr, casFeatCode_isWordNumeric);
-    }
-
+      jcas.throwFeatMissing("isWordNumeric", "org.texttechnologylab.annotation.ocr.OCRToken");
+    return ll_cas.ll_getBooleanValue(addr, casFeatCode_isWordNumeric);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -151,11 +145,11 @@ public class OCRToken_Type extends Token_Type {
      */
     public void setIsWordNumeric(int addr, boolean v) {
         if (featOkTst && casFeat_isWordNumeric == null)
-            jcas.throwFeatMissing("isWordNumeric", "org.texttechnologylab.annotation.ocr.OCRToken");
-        ll_cas.ll_setBooleanValue(addr, casFeatCode_isWordNumeric, v);
-    }
-
-
+      jcas.throwFeatMissing("isWordNumeric", "org.texttechnologylab.annotation.ocr.OCRToken");
+    ll_cas.ll_setBooleanValue(addr, casFeatCode_isWordNumeric, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -172,10 +166,9 @@ public class OCRToken_Type extends Token_Type {
      */
     public boolean getContainsHyphen(int addr) {
         if (featOkTst && casFeat_containsHyphen == null)
-            jcas.throwFeatMissing("containsHyphen", "org.texttechnologylab.annotation.ocr.OCRToken");
-        return ll_cas.ll_getBooleanValue(addr, casFeatCode_containsHyphen);
-    }
-
+      jcas.throwFeatMissing("containsHyphen", "org.texttechnologylab.annotation.ocr.OCRToken");
+    return ll_cas.ll_getBooleanValue(addr, casFeatCode_containsHyphen);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -183,11 +176,11 @@ public class OCRToken_Type extends Token_Type {
      */
     public void setContainsHyphen(int addr, boolean v) {
         if (featOkTst && casFeat_containsHyphen == null)
-            jcas.throwFeatMissing("containsHyphen", "org.texttechnologylab.annotation.ocr.OCRToken");
-        ll_cas.ll_setBooleanValue(addr, casFeatCode_containsHyphen, v);
-    }
-
-
+      jcas.throwFeatMissing("containsHyphen", "org.texttechnologylab.annotation.ocr.OCRToken");
+    ll_cas.ll_setBooleanValue(addr, casFeatCode_containsHyphen, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -204,10 +197,9 @@ public class OCRToken_Type extends Token_Type {
      */
     public int getSuspiciousChars(int addr) {
         if (featOkTst && casFeat_suspiciousChars == null)
-            jcas.throwFeatMissing("suspiciousChars", "org.texttechnologylab.annotation.ocr.OCRToken");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_suspiciousChars);
-    }
-
+      jcas.throwFeatMissing("suspiciousChars", "org.texttechnologylab.annotation.ocr.OCRToken");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_suspiciousChars);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -215,9 +207,11 @@ public class OCRToken_Type extends Token_Type {
      */
     public void setSuspiciousChars(int addr, int v) {
         if (featOkTst && casFeat_suspiciousChars == null)
-            jcas.throwFeatMissing("suspiciousChars", "org.texttechnologylab.annotation.ocr.OCRToken");
-        ll_cas.ll_setIntValue(addr, casFeatCode_suspiciousChars, v);
-    }
+      jcas.throwFeatMissing("suspiciousChars", "org.texttechnologylab.annotation.ocr.OCRToken");
+    ll_cas.ll_setIntValue(addr, casFeatCode_suspiciousChars, v);}
+    
+  
+
 
 
     /**
@@ -228,34 +222,34 @@ public class OCRToken_Type extends Token_Type {
      * @generated
      */
     public OCRToken_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_subTokenList = jcas.getRequiredFeatureDE(casType, "subTokenList", "uima.cas.StringList", featOkTst);
+    casFeatCode_subTokenList  = (null == casFeat_subTokenList) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_subTokenList).getCode();
 
-        casFeat_subTokenList = jcas.getRequiredFeatureDE(casType, "subTokenList", "uima.cas.StringList", featOkTst);
-        casFeatCode_subTokenList = (null == casFeat_subTokenList) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_subTokenList).getCode();
+ 
+    casFeat_isWordFromDictionary = jcas.getRequiredFeatureDE(casType, "isWordFromDictionary", "uima.cas.Boolean", featOkTst);
+    casFeatCode_isWordFromDictionary  = (null == casFeat_isWordFromDictionary) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_isWordFromDictionary).getCode();
 
+ 
+    casFeat_isWordNormal = jcas.getRequiredFeatureDE(casType, "isWordNormal", "uima.cas.Boolean", featOkTst);
+    casFeatCode_isWordNormal  = (null == casFeat_isWordNormal) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_isWordNormal).getCode();
 
-        casFeat_isWordFromDictionary = jcas.getRequiredFeatureDE(casType, "isWordFromDictionary", "uima.cas.Boolean", featOkTst);
-        casFeatCode_isWordFromDictionary = (null == casFeat_isWordFromDictionary) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_isWordFromDictionary).getCode();
+ 
+    casFeat_isWordNumeric = jcas.getRequiredFeatureDE(casType, "isWordNumeric", "uima.cas.Boolean", featOkTst);
+    casFeatCode_isWordNumeric  = (null == casFeat_isWordNumeric) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_isWordNumeric).getCode();
 
+ 
+    casFeat_containsHyphen = jcas.getRequiredFeatureDE(casType, "containsHyphen", "uima.cas.Boolean", featOkTst);
+    casFeatCode_containsHyphen  = (null == casFeat_containsHyphen) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_containsHyphen).getCode();
 
-        casFeat_isWordNormal = jcas.getRequiredFeatureDE(casType, "isWordNormal", "uima.cas.Boolean", featOkTst);
-        casFeatCode_isWordNormal = (null == casFeat_isWordNormal) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_isWordNormal).getCode();
+ 
+    casFeat_suspiciousChars = jcas.getRequiredFeatureDE(casType, "suspiciousChars", "uima.cas.Integer", featOkTst);
+    casFeatCode_suspiciousChars  = (null == casFeat_suspiciousChars) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_suspiciousChars).getCode();
 
-
-        casFeat_isWordNumeric = jcas.getRequiredFeatureDE(casType, "isWordNumeric", "uima.cas.Boolean", featOkTst);
-        casFeatCode_isWordNumeric = (null == casFeat_isWordNumeric) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_isWordNumeric).getCode();
-
-
-        casFeat_containsHyphen = jcas.getRequiredFeatureDE(casType, "containsHyphen", "uima.cas.Boolean", featOkTst);
-        casFeatCode_containsHyphen = (null == casFeat_containsHyphen) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_containsHyphen).getCode();
-
-
-        casFeat_suspiciousChars = jcas.getRequiredFeatureDE(casType, "suspiciousChars", "uima.cas.Integer", featOkTst);
-        casFeatCode_suspiciousChars = (null == casFeat_suspiciousChars) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_suspiciousChars).getCode();
-
-    }
+  }
 }
 
 

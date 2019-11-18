@@ -10,12 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- * XML source: /home/abrami/Projects/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class OCRBlock extends Annotation {
     /**
      * @generated
@@ -35,17 +33,15 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected OCRBlock() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -54,18 +50,18 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public OCRBlock(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public OCRBlock(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -74,19 +70,19 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public OCRBlock(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -100,11 +96,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public int getTop() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_top == null)
-            jcasType.jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_top);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_top == null)
+      jcasType.jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_top);}
+    
     /**
      * setter for top - sets
      *
@@ -112,12 +107,11 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setTop(int v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_top == null)
-            jcasType.jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_top, v);
-    }
-
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_top == null)
+      jcasType.jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_top, v);}    
+   
+    
     //*--------------*
     //* Feature: bottom
 
@@ -128,11 +122,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public int getBottom() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_bottom == null)
-            jcasType.jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_bottom);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_bottom == null)
+      jcasType.jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_bottom);}
+    
     /**
      * setter for bottom - sets
      *
@@ -140,12 +133,11 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setBottom(int v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_bottom == null)
-            jcasType.jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_bottom, v);
-    }
-
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_bottom == null)
+      jcasType.jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_bottom, v);}    
+   
+    
     //*--------------*
     //* Feature: left
 
@@ -156,11 +148,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public int getLeft() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_left == null)
-            jcasType.jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_left);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_left == null)
+      jcasType.jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_left);}
+    
     /**
      * setter for left - sets
      *
@@ -168,12 +159,11 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setLeft(int v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_left == null)
-            jcasType.jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_left, v);
-    }
-
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_left == null)
+      jcasType.jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_left, v);}    
+   
+    
     //*--------------*
     //* Feature: right
 
@@ -184,11 +174,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public int getRight() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_right == null)
-            jcasType.jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_right);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_right == null)
+      jcasType.jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_right);}
+    
     /**
      * setter for right - sets
      *
@@ -196,12 +185,11 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setRight(int v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_right == null)
-            jcasType.jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_right, v);
-    }
-
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_right == null)
+      jcasType.jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setIntValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_right, v);}    
+   
+    
     //*--------------*
     //* Feature: blockType
 
@@ -212,11 +200,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public String getBlockType() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_blockType == null)
-            jcasType.jcas.throwFeatMissing("blockType", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_blockType);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_blockType == null)
+      jcasType.jcas.throwFeatMissing("blockType", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_blockType);}
+    
     /**
      * setter for blockType - sets
      *
@@ -224,12 +211,11 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setBlockType(String v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_blockType == null)
-            jcasType.jcas.throwFeatMissing("blockType", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_blockType, v);
-    }
-
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_blockType == null)
+      jcasType.jcas.throwFeatMissing("blockType", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_blockType, v);}    
+   
+    
     //*--------------*
     //* Feature: blockName
 
@@ -240,11 +226,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public String getBlockName() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_blockName == null)
-            jcasType.jcas.throwFeatMissing("blockName", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_blockName);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_blockName == null)
+      jcasType.jcas.throwFeatMissing("blockName", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_blockName);}
+    
     /**
      * setter for blockName - sets
      *
@@ -252,12 +237,11 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setBlockName(String v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_blockName == null)
-            jcasType.jcas.throwFeatMissing("blockName", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_blockName, v);
-    }
-
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_blockName == null)
+      jcasType.jcas.throwFeatMissing("blockName", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_blockName, v);}    
+   
+    
     //*--------------*
     //* Feature: valid
 
@@ -268,11 +252,10 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public boolean getValid() {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_valid == null)
-            jcasType.jcas.throwFeatMissing("valid", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_valid);
-    }
-
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_valid == null)
+      jcasType.jcas.throwFeatMissing("valid", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_valid);}
+    
     /**
      * setter for valid - sets
      *
@@ -280,10 +263,9 @@ public class OCRBlock extends Annotation {
      * @generated
      */
     public void setValid(boolean v) {
-        if (OCRBlock_Type.featOkTst && ((OCRBlock_Type) jcasType).casFeat_valid == null)
-            jcasType.jcas.throwFeatMissing("valid", "org.texttechnologylab.annotation.ocr.OCRBlock");
-        jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRBlock_Type) jcasType).casFeatCode_valid, v);
-    }
-}
+    if (OCRBlock_Type.featOkTst && ((OCRBlock_Type)jcasType).casFeat_valid == null)
+      jcasType.jcas.throwFeatMissing("valid", "org.texttechnologylab.annotation.ocr.OCRBlock");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((OCRBlock_Type)jcasType).casFeatCode_valid, v);}    
+  }
 
     

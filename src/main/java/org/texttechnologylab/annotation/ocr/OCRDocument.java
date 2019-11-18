@@ -10,12 +10,10 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- * XML source: /home/abrami/Projects/TextAnnotator/TypeSystemDescriptor/src/main/resources/desc/type/TextTechnologyOCR.xml
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * XML source: /home/stud_homes/s3676959/git/UIMATypeSystem/src/main/resources/desc/type/TextTechnologyOCR.xml
+ * @generated */
 public class OCRDocument extends Annotation {
     /**
      * @generated
@@ -35,17 +33,15 @@ public class OCRDocument extends Annotation {
      * @generated
      */
     @Override
-    public int getTypeIndexID() {
-        return typeIndexID;
-    }
-
+    public int getTypeIndexID() {return typeIndexID;}
+ 
     /**
      * Never called.  Disable default constructor
      *
      * @generated
      */
     protected OCRDocument() {/* intentionally empty block */}
-
+    
     /**
      * Internal - constructor used by generator
      *
@@ -54,18 +50,18 @@ public class OCRDocument extends Annotation {
      * @generated
      */
     public OCRDocument(int addr, TOP_Type type) {
-        super(addr, type);
-        readObject();
-    }
-
+    super(addr, type);
+    readObject();
+  }
+  
     /**
      * @param jcas JCas to which this Feature Structure belongs
      * @generated
      */
     public OCRDocument(JCas jcas) {
-        super(jcas);
-        readObject();
-    }
+    super(jcas);
+    readObject();   
+  } 
 
     /**
      * @param jcas  JCas to which this Feature Structure belongs
@@ -74,19 +70,19 @@ public class OCRDocument extends Annotation {
      * @generated
      */
     public OCRDocument(JCas jcas, int begin, int end) {
-        super(jcas);
-        setBegin(begin);
-        setEnd(end);
-        readObject();
-    }
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
-    /**
-     * <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
      * Write your own initialization here
      * <!-- end-user-doc -->
      *
-     * @generated modifiable
-     */
+   * @generated modifiable 
+   */
     private void readObject() {/*default - does nothing empty block */}
 
 
@@ -100,11 +96,10 @@ public class OCRDocument extends Annotation {
      * @generated
      */
     public String getDocumentname() {
-        if (OCRDocument_Type.featOkTst && ((OCRDocument_Type) jcasType).casFeat_documentname == null)
-            jcasType.jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
-        return jcasType.ll_cas.ll_getStringValue(addr, ((OCRDocument_Type) jcasType).casFeatCode_documentname);
-    }
-
+    if (OCRDocument_Type.featOkTst && ((OCRDocument_Type)jcasType).casFeat_documentname == null)
+      jcasType.jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((OCRDocument_Type)jcasType).casFeatCode_documentname);}
+    
     /**
      * setter for documentname - sets
      *
@@ -112,10 +107,9 @@ public class OCRDocument extends Annotation {
      * @generated
      */
     public void setDocumentname(String v) {
-        if (OCRDocument_Type.featOkTst && ((OCRDocument_Type) jcasType).casFeat_documentname == null)
-            jcasType.jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
-        jcasType.ll_cas.ll_setStringValue(addr, ((OCRDocument_Type) jcasType).casFeatCode_documentname, v);
-    }
-}
+    if (OCRDocument_Type.featOkTst && ((OCRDocument_Type)jcasType).casFeat_documentname == null)
+      jcasType.jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
+    jcasType.ll_cas.ll_setStringValue(addr, ((OCRDocument_Type)jcasType).casFeatCode_documentname, v);}    
+  }
 
     

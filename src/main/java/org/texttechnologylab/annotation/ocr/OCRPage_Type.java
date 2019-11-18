@@ -10,11 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * @generated */
 public class OCRPage_Type extends Annotation_Type {
     /**
      * @generated
@@ -44,10 +42,9 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public int getWidth(int addr) {
         if (featOkTst && casFeat_width == null)
-            jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_width);
-    }
-
+      jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_width);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -55,11 +52,11 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public void setWidth(int addr, int v) {
         if (featOkTst && casFeat_width == null)
-            jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
-        ll_cas.ll_setIntValue(addr, casFeatCode_width, v);
-    }
-
-
+      jcas.throwFeatMissing("width", "org.texttechnologylab.annotation.ocr.OCRPage");
+    ll_cas.ll_setIntValue(addr, casFeatCode_width, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -76,10 +73,9 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public int getHeight(int addr) {
         if (featOkTst && casFeat_height == null)
-            jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_height);
-    }
-
+      jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_height);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -87,11 +83,11 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public void setHeight(int addr, int v) {
         if (featOkTst && casFeat_height == null)
-            jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
-        ll_cas.ll_setIntValue(addr, casFeatCode_height, v);
-    }
-
-
+      jcas.throwFeatMissing("height", "org.texttechnologylab.annotation.ocr.OCRPage");
+    ll_cas.ll_setIntValue(addr, casFeatCode_height, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -108,10 +104,9 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public int getResolution(int addr) {
         if (featOkTst && casFeat_resolution == null)
-            jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_resolution);
-    }
-
+      jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_resolution);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -119,11 +114,11 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public void setResolution(int addr, int v) {
         if (featOkTst && casFeat_resolution == null)
-            jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
-        ll_cas.ll_setIntValue(addr, casFeatCode_resolution, v);
-    }
-
-
+      jcas.throwFeatMissing("resolution", "org.texttechnologylab.annotation.ocr.OCRPage");
+    ll_cas.ll_setIntValue(addr, casFeatCode_resolution, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -140,10 +135,9 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public String getPageId(int addr) {
         if (featOkTst && casFeat_pageId == null)
-            jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_pageId);
-    }
-
+      jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_pageId);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -151,11 +145,11 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public void setPageId(int addr, String v) {
         if (featOkTst && casFeat_pageId == null)
-            jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
-        ll_cas.ll_setStringValue(addr, casFeatCode_pageId, v);
-    }
-
-
+      jcas.throwFeatMissing("pageId", "org.texttechnologylab.annotation.ocr.OCRPage");
+    ll_cas.ll_setStringValue(addr, casFeatCode_pageId, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -172,10 +166,9 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public int getPageNumber(int addr) {
         if (featOkTst && casFeat_pageNumber == null)
-            jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_pageNumber);
-    }
-
+      jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_pageNumber);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -183,11 +176,11 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public void setPageNumber(int addr, int v) {
         if (featOkTst && casFeat_pageNumber == null)
-            jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
-        ll_cas.ll_setIntValue(addr, casFeatCode_pageNumber, v);
-    }
-
-
+      jcas.throwFeatMissing("pageNumber", "org.texttechnologylab.annotation.ocr.OCRPage");
+    ll_cas.ll_setIntValue(addr, casFeatCode_pageNumber, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -204,10 +197,9 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public String getUri(int addr) {
         if (featOkTst && casFeat_uri == null)
-            jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_uri);
-    }
-
+      jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_uri);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -215,9 +207,11 @@ public class OCRPage_Type extends Annotation_Type {
      */
     public void setUri(int addr, String v) {
         if (featOkTst && casFeat_uri == null)
-            jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
-        ll_cas.ll_setStringValue(addr, casFeatCode_uri, v);
-    }
+      jcas.throwFeatMissing("uri", "org.texttechnologylab.annotation.ocr.OCRPage");
+    ll_cas.ll_setStringValue(addr, casFeatCode_uri, v);}
+    
+  
+
 
 
     /**
@@ -228,34 +222,34 @@ public class OCRPage_Type extends Annotation_Type {
      * @generated
      */
     public OCRPage_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_width = jcas.getRequiredFeatureDE(casType, "width", "uima.cas.Integer", featOkTst);
+    casFeatCode_width  = (null == casFeat_width) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_width).getCode();
 
-        casFeat_width = jcas.getRequiredFeatureDE(casType, "width", "uima.cas.Integer", featOkTst);
-        casFeatCode_width = (null == casFeat_width) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_width).getCode();
+ 
+    casFeat_height = jcas.getRequiredFeatureDE(casType, "height", "uima.cas.Integer", featOkTst);
+    casFeatCode_height  = (null == casFeat_height) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_height).getCode();
 
+ 
+    casFeat_resolution = jcas.getRequiredFeatureDE(casType, "resolution", "uima.cas.Integer", featOkTst);
+    casFeatCode_resolution  = (null == casFeat_resolution) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_resolution).getCode();
 
-        casFeat_height = jcas.getRequiredFeatureDE(casType, "height", "uima.cas.Integer", featOkTst);
-        casFeatCode_height = (null == casFeat_height) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_height).getCode();
+ 
+    casFeat_pageId = jcas.getRequiredFeatureDE(casType, "pageId", "uima.cas.String", featOkTst);
+    casFeatCode_pageId  = (null == casFeat_pageId) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_pageId).getCode();
 
+ 
+    casFeat_pageNumber = jcas.getRequiredFeatureDE(casType, "pageNumber", "uima.cas.Integer", featOkTst);
+    casFeatCode_pageNumber  = (null == casFeat_pageNumber) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_pageNumber).getCode();
 
-        casFeat_resolution = jcas.getRequiredFeatureDE(casType, "resolution", "uima.cas.Integer", featOkTst);
-        casFeatCode_resolution = (null == casFeat_resolution) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_resolution).getCode();
+ 
+    casFeat_uri = jcas.getRequiredFeatureDE(casType, "uri", "uima.cas.String", featOkTst);
+    casFeatCode_uri  = (null == casFeat_uri) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_uri).getCode();
 
-
-        casFeat_pageId = jcas.getRequiredFeatureDE(casType, "pageId", "uima.cas.String", featOkTst);
-        casFeatCode_pageId = (null == casFeat_pageId) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_pageId).getCode();
-
-
-        casFeat_pageNumber = jcas.getRequiredFeatureDE(casType, "pageNumber", "uima.cas.Integer", featOkTst);
-        casFeatCode_pageNumber = (null == casFeat_pageNumber) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_pageNumber).getCode();
-
-
-        casFeat_uri = jcas.getRequiredFeatureDE(casType, "uri", "uima.cas.String", featOkTst);
-        casFeatCode_uri = (null == casFeat_uri) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_uri).getCode();
-
-    }
+  }
 }
 
 

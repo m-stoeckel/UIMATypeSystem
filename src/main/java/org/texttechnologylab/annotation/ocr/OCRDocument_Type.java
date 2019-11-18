@@ -10,11 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * @generated */
 public class OCRDocument_Type extends Annotation_Type {
     /**
      * @generated
@@ -44,10 +42,9 @@ public class OCRDocument_Type extends Annotation_Type {
      */
     public String getDocumentname(int addr) {
         if (featOkTst && casFeat_documentname == null)
-            jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_documentname);
-    }
-
+      jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_documentname);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -55,9 +52,11 @@ public class OCRDocument_Type extends Annotation_Type {
      */
     public void setDocumentname(int addr, String v) {
         if (featOkTst && casFeat_documentname == null)
-            jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
-        ll_cas.ll_setStringValue(addr, casFeatCode_documentname, v);
-    }
+      jcas.throwFeatMissing("documentname", "org.texttechnologylab.annotation.ocr.OCRDocument");
+    ll_cas.ll_setStringValue(addr, casFeatCode_documentname, v);}
+    
+  
+
 
 
     /**
@@ -68,14 +67,14 @@ public class OCRDocument_Type extends Annotation_Type {
      * @generated
      */
     public OCRDocument_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_documentname = jcas.getRequiredFeatureDE(casType, "documentname", "uima.cas.String", featOkTst);
+    casFeatCode_documentname  = (null == casFeat_documentname) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_documentname).getCode();
 
-        casFeat_documentname = jcas.getRequiredFeatureDE(casType, "documentname", "uima.cas.String", featOkTst);
-        casFeatCode_documentname = (null == casFeat_documentname) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_documentname).getCode();
-
-    }
+  }
 }
 
 

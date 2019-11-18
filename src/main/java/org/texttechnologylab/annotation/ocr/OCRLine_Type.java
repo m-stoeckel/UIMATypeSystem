@@ -10,11 +10,9 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/**
- * Updated by JCasGen Wed Mar 13 09:48:05 CET 2019
- *
- * @generated
- */
+/** 
+ * Updated by JCasGen Mon Nov 18 17:36:39 CET 2019
+ * @generated */
 public class OCRLine_Type extends Annotation_Type {
     /**
      * @generated
@@ -44,10 +42,9 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public int getBaseline(int addr) {
         if (featOkTst && casFeat_baseline == null)
-            jcas.throwFeatMissing("baseline", "org.texttechnologylab.annotation.ocr.OCRLine");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_baseline);
-    }
-
+      jcas.throwFeatMissing("baseline", "org.texttechnologylab.annotation.ocr.OCRLine");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_baseline);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -55,11 +52,11 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public void setBaseline(int addr, int v) {
         if (featOkTst && casFeat_baseline == null)
-            jcas.throwFeatMissing("baseline", "org.texttechnologylab.annotation.ocr.OCRLine");
-        ll_cas.ll_setIntValue(addr, casFeatCode_baseline, v);
-    }
-
-
+      jcas.throwFeatMissing("baseline", "org.texttechnologylab.annotation.ocr.OCRLine");
+    ll_cas.ll_setIntValue(addr, casFeatCode_baseline, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -76,10 +73,9 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public int getTop(int addr) {
         if (featOkTst && casFeat_top == null)
-            jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRLine");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_top);
-    }
-
+      jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRLine");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_top);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -87,11 +83,11 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public void setTop(int addr, int v) {
         if (featOkTst && casFeat_top == null)
-            jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRLine");
-        ll_cas.ll_setIntValue(addr, casFeatCode_top, v);
-    }
-
-
+      jcas.throwFeatMissing("top", "org.texttechnologylab.annotation.ocr.OCRLine");
+    ll_cas.ll_setIntValue(addr, casFeatCode_top, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -108,10 +104,9 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public int getBottom(int addr) {
         if (featOkTst && casFeat_bottom == null)
-            jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRLine");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_bottom);
-    }
-
+      jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRLine");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_bottom);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -119,11 +114,11 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public void setBottom(int addr, int v) {
         if (featOkTst && casFeat_bottom == null)
-            jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRLine");
-        ll_cas.ll_setIntValue(addr, casFeatCode_bottom, v);
-    }
-
-
+      jcas.throwFeatMissing("bottom", "org.texttechnologylab.annotation.ocr.OCRLine");
+    ll_cas.ll_setIntValue(addr, casFeatCode_bottom, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -140,10 +135,9 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public int getLeft(int addr) {
         if (featOkTst && casFeat_left == null)
-            jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRLine");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_left);
-    }
-
+      jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRLine");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_left);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -151,11 +145,11 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public void setLeft(int addr, int v) {
         if (featOkTst && casFeat_left == null)
-            jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRLine");
-        ll_cas.ll_setIntValue(addr, casFeatCode_left, v);
-    }
-
-
+      jcas.throwFeatMissing("left", "org.texttechnologylab.annotation.ocr.OCRLine");
+    ll_cas.ll_setIntValue(addr, casFeatCode_left, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -172,10 +166,9 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public int getRight(int addr) {
         if (featOkTst && casFeat_right == null)
-            jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRLine");
-        return ll_cas.ll_getIntValue(addr, casFeatCode_right);
-    }
-
+      jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRLine");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_right);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -183,11 +176,11 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public void setRight(int addr, int v) {
         if (featOkTst && casFeat_right == null)
-            jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRLine");
-        ll_cas.ll_setIntValue(addr, casFeatCode_right, v);
-    }
-
-
+      jcas.throwFeatMissing("right", "org.texttechnologylab.annotation.ocr.OCRLine");
+    ll_cas.ll_setIntValue(addr, casFeatCode_right, v);}
+    
+  
+ 
     /**
      * @generated
      */
@@ -204,10 +197,9 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public String getFormat(int addr) {
         if (featOkTst && casFeat_format == null)
-            jcas.throwFeatMissing("format", "org.texttechnologylab.annotation.ocr.OCRLine");
-        return ll_cas.ll_getStringValue(addr, casFeatCode_format);
-    }
-
+      jcas.throwFeatMissing("format", "org.texttechnologylab.annotation.ocr.OCRLine");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_format);
+  }
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -215,9 +207,11 @@ public class OCRLine_Type extends Annotation_Type {
      */
     public void setFormat(int addr, String v) {
         if (featOkTst && casFeat_format == null)
-            jcas.throwFeatMissing("format", "org.texttechnologylab.annotation.ocr.OCRLine");
-        ll_cas.ll_setStringValue(addr, casFeatCode_format, v);
-    }
+      jcas.throwFeatMissing("format", "org.texttechnologylab.annotation.ocr.OCRLine");
+    ll_cas.ll_setStringValue(addr, casFeatCode_format, v);}
+    
+  
+
 
 
     /**
@@ -228,34 +222,34 @@ public class OCRLine_Type extends Annotation_Type {
      * @generated
      */
     public OCRLine_Type(JCas jcas, Type casType) {
-        super(jcas, casType);
-        casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl) this.casType, getFSGenerator());
+    super(jcas, casType);
+    casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 
+ 
+    casFeat_baseline = jcas.getRequiredFeatureDE(casType, "baseline", "uima.cas.Integer", featOkTst);
+    casFeatCode_baseline  = (null == casFeat_baseline) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_baseline).getCode();
 
-        casFeat_baseline = jcas.getRequiredFeatureDE(casType, "baseline", "uima.cas.Integer", featOkTst);
-        casFeatCode_baseline = (null == casFeat_baseline) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_baseline).getCode();
+ 
+    casFeat_top = jcas.getRequiredFeatureDE(casType, "top", "uima.cas.Integer", featOkTst);
+    casFeatCode_top  = (null == casFeat_top) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_top).getCode();
 
+ 
+    casFeat_bottom = jcas.getRequiredFeatureDE(casType, "bottom", "uima.cas.Integer", featOkTst);
+    casFeatCode_bottom  = (null == casFeat_bottom) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_bottom).getCode();
 
-        casFeat_top = jcas.getRequiredFeatureDE(casType, "top", "uima.cas.Integer", featOkTst);
-        casFeatCode_top = (null == casFeat_top) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_top).getCode();
+ 
+    casFeat_left = jcas.getRequiredFeatureDE(casType, "left", "uima.cas.Integer", featOkTst);
+    casFeatCode_left  = (null == casFeat_left) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_left).getCode();
 
+ 
+    casFeat_right = jcas.getRequiredFeatureDE(casType, "right", "uima.cas.Integer", featOkTst);
+    casFeatCode_right  = (null == casFeat_right) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_right).getCode();
 
-        casFeat_bottom = jcas.getRequiredFeatureDE(casType, "bottom", "uima.cas.Integer", featOkTst);
-        casFeatCode_bottom = (null == casFeat_bottom) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_bottom).getCode();
+ 
+    casFeat_format = jcas.getRequiredFeatureDE(casType, "format", "uima.cas.String", featOkTst);
+    casFeatCode_format  = (null == casFeat_format) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_format).getCode();
 
-
-        casFeat_left = jcas.getRequiredFeatureDE(casType, "left", "uima.cas.Integer", featOkTst);
-        casFeatCode_left = (null == casFeat_left) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_left).getCode();
-
-
-        casFeat_right = jcas.getRequiredFeatureDE(casType, "right", "uima.cas.Integer", featOkTst);
-        casFeatCode_right = (null == casFeat_right) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_right).getCode();
-
-
-        casFeat_format = jcas.getRequiredFeatureDE(casType, "format", "uima.cas.String", featOkTst);
-        casFeatCode_format = (null == casFeat_format) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_format).getCode();
-
-    }
+  }
 }
 
 
